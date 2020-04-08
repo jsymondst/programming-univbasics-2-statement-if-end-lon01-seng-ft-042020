@@ -1,4 +1,6 @@
 # Write your solution here
-if true
-  puts "Do something"
+if (Time.now.sec % 2 == 0)
+  puts "Even"
+else
+  puts "Odd"
 end
